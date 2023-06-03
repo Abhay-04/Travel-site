@@ -658,10 +658,20 @@ h1 , h2 , h3{
    
 }
 
+@media (min-width:100px) and (max-width:400px){
+    
+    .count-item {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        
+    }
+}
 
 
 
-@media (min-width: 501px) and (max-width: 768px){
+@media (min-width: 400px) and (max-width: 768px){
     html{
         font-size: 50%;
     
@@ -722,7 +732,8 @@ h1 , h2 , h3{
             display: block;
             text-align: center;
         }
-    
+
+          
     
         .form-wrapper .company-address{
             float: none;
